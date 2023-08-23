@@ -1,0 +1,5 @@
+#https://pip.pypa.io/en/stable/reference/requirements-file-format/
+folium == 0.14.0
+pandas == 1.2.4
+plotly == 5.16.1
+streamlit == 1.25.0
