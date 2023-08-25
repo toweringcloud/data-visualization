@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_220a72867c9e525e461da0980f824419 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_220a72867c9e525e461da0980f824419" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_220a72867c9e525e461da0980f824419 = L.map(
+                "map_220a72867c9e525e461da0980f824419",
+                {
+                    center: [30.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ae1483fc655e76ca72b10d13b7ba53bd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_220a72867c9e525e461da0980f824419);
+        
+    
+            var marker_b2528138fc4642afa36342bd107c4050 = L.marker(
+                [37.0902, -95.7129],
+                {}
+            ).addTo(map_220a72867c9e525e461da0980f824419);
+        
+    
+        var popup_a95d01ba43348f70f0e90baac0b13487 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4fcbf8829e6b8dea639b5f5c960a521 = $(`<div id="html_e4fcbf8829e6b8dea639b5f5c960a521" style="width: 100.0%; height: 100.0%;">Country: United States<br>Participations: 23</div>`)[0];
+                popup_a95d01ba43348f70f0e90baac0b13487.setContent(html_e4fcbf8829e6b8dea639b5f5c960a521);
+            
+        
+
+        marker_b2528138fc4642afa36342bd107c4050.bindPopup(popup_a95d01ba43348f70f0e90baac0b13487)
+        ;
+
+        
+    
+    
+            var marker_b5f5502c7486c586ba1db95d8801b3a1 = L.marker(
+                [61.524, 105.318756],
+                {}
+            ).addTo(map_220a72867c9e525e461da0980f824419);
+        
+    
+        var popup_4e533e632dfec2b8aa9422129b714b69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04ed2694512c53a7c3b509dac15800c4 = $(`<div id="html_04ed2694512c53a7c3b509dac15800c4" style="width: 100.0%; height: 100.0%;">Country: Russia<br>Participations: 13</div>`)[0];
+                popup_4e533e632dfec2b8aa9422129b714b69.setContent(html_04ed2694512c53a7c3b509dac15800c4);
+            
+        
+
+        marker_b5f5502c7486c586ba1db95d8801b3a1.bindPopup(popup_4e533e632dfec2b8aa9422129b714b69)
+        ;
+
+        
+    
+    
+            var marker_ba0e028113b404a9ced6cdd2deaea559 = L.marker(
+                [35.8617, 104.1954],
+                {}
+            ).addTo(map_220a72867c9e525e461da0980f824419);
+        
+    
+        var popup_e9b8e69c805cc30ba87dca7cb7f4470f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dbd8197c41df183dbe439df051ede6e = $(`<div id="html_2dbd8197c41df183dbe439df051ede6e" style="width: 100.0%; height: 100.0%;">Country: China<br>Participations: 10</div>`)[0];
+                popup_e9b8e69c805cc30ba87dca7cb7f4470f.setContent(html_2dbd8197c41df183dbe439df051ede6e);
+            
+        
+
+        marker_ba0e028113b404a9ced6cdd2deaea559.bindPopup(popup_e9b8e69c805cc30ba87dca7cb7f4470f)
+        ;
+
+        
+    
+    
+            var marker_621b0cd8a293930f5087e9a3e973b218 = L.marker(
+                [35.682839, 139.759455],
+                {}
+            ).addTo(map_220a72867c9e525e461da0980f824419);
+        
+    
+        var popup_3336c89ca950f5a28797424efa3972c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca75ee3e2c47c2a9198e98abdfda5d50 = $(`<div id="html_ca75ee3e2c47c2a9198e98abdfda5d50" style="width: 100.0%; height: 100.0%;">Country: Japan<br>Participations: 22</div>`)[0];
+                popup_3336c89ca950f5a28797424efa3972c8.setContent(html_ca75ee3e2c47c2a9198e98abdfda5d50);
+            
+        
+
+        marker_621b0cd8a293930f5087e9a3e973b218.bindPopup(popup_3336c89ca950f5a28797424efa3972c8)
+        ;
+
+        
+    
+    
+            var marker_5f6480a644a1ae0f6725a8598117b4dd = L.marker(
+                [51.1657, 10.4515],
+                {}
+            ).addTo(map_220a72867c9e525e461da0980f824419);
+        
+    
+        var popup_5c86ce4a3d1e0808191bf019d17cf449 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecd866a11bb345107385f018cb8bc299 = $(`<div id="html_ecd866a11bb345107385f018cb8bc299" style="width: 100.0%; height: 100.0%;">Country: Germany<br>Participations: 16</div>`)[0];
+                popup_5c86ce4a3d1e0808191bf019d17cf449.setContent(html_ecd866a11bb345107385f018cb8bc299);
+            
+        
+
+        marker_5f6480a644a1ae0f6725a8598117b4dd.bindPopup(popup_5c86ce4a3d1e0808191bf019d17cf449)
+        ;
+
+        
+    
+    
+            var marker_48dfe898abebbac629aa59cc505e7364 = L.marker(
+                [51.509865, -0.118092],
+                {}
+            ).addTo(map_220a72867c9e525e461da0980f824419);
+        
+    
+        var popup_f679d852900eb11229e5f006c621fc69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f47653dfc1428260a0eb3573430455f3 = $(`<div id="html_f47653dfc1428260a0eb3573430455f3" style="width: 100.0%; height: 100.0%;">Country: United Kingdom<br>Participations: 27</div>`)[0];
+                popup_f679d852900eb11229e5f006c621fc69.setContent(html_f47653dfc1428260a0eb3573430455f3);
+            
+        
+
+        marker_48dfe898abebbac629aa59cc505e7364.bindPopup(popup_f679d852900eb11229e5f006c621fc69)
+        ;
+
+        
+    
+    
+            var marker_3ae4358ebff3b50b7f5f31d48005ea51 = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(map_220a72867c9e525e461da0980f824419);
+        
+    
+        var popup_d8dadb16e6f3e8743c63dda24951241f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72745195c47e092dffd0bca6923c788c = $(`<div id="html_72745195c47e092dffd0bca6923c788c" style="width: 100.0%; height: 100.0%;">Country: France<br>Participations: 28</div>`)[0];
+                popup_d8dadb16e6f3e8743c63dda24951241f.setContent(html_72745195c47e092dffd0bca6923c788c);
+            
+        
+
+        marker_3ae4358ebff3b50b7f5f31d48005ea51.bindPopup(popup_d8dadb16e6f3e8743c63dda24951241f)
+        ;
+
+        
+    
+    
+            var marker_a3a93f70c2da36066736df8260965542 = L.marker(
+                [41.8719, 12.5674],
+                {}
+            ).addTo(map_220a72867c9e525e461da0980f824419);
+        
+    
+        var popup_9002d0b81c0b526a9baf1017bed54677 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6aed5bf29a99b55762f75864711cb5e7 = $(`<div id="html_6aed5bf29a99b55762f75864711cb5e7" style="width: 100.0%; height: 100.0%;">Country: Italy<br>Participations: 27</div>`)[0];
+                popup_9002d0b81c0b526a9baf1017bed54677.setContent(html_6aed5bf29a99b55762f75864711cb5e7);
+            
+        
+
+        marker_a3a93f70c2da36066736df8260965542.bindPopup(popup_9002d0b81c0b526a9baf1017bed54677)
+        ;
+
+        
+    
+    
+            var marker_04c8b9b01ffa55470e9288a4aaa27dbe = L.marker(
+                [-24.7761086, 134.755],
+                {}
+            ).addTo(map_220a72867c9e525e461da0980f824419);
+        
+    
+        var popup_9df9993ebbe5fb650eb077ba320f8c1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cec77caba930a8c66076b57b6bd399fd = $(`<div id="html_cec77caba930a8c66076b57b6bd399fd" style="width: 100.0%; height: 100.0%;">Country: Austraila<br>Participations: 164</div>`)[0];
+                popup_9df9993ebbe5fb650eb077ba320f8c1e.setContent(html_cec77caba930a8c66076b57b6bd399fd);
+            
+        
+
+        marker_04c8b9b01ffa55470e9288a4aaa27dbe.bindPopup(popup_9df9993ebbe5fb650eb077ba320f8c1e)
+        ;
+
+        
+    
+    
+            var marker_fbf38c9bf24d24c15dd4dc80d61501e8 = L.marker(
+                [36.638392, 127.6961188],
+                {}
+            ).addTo(map_220a72867c9e525e461da0980f824419);
+        
+    
+        var popup_d490e7ab7e5daadb758be009c8d13166 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92c90b1c31ae3da546e5b63765e44f44 = $(`<div id="html_92c90b1c31ae3da546e5b63765e44f44" style="width: 100.0%; height: 100.0%;">Country: Korea<br>Participations: 96</div>`)[0];
+                popup_d490e7ab7e5daadb758be009c8d13166.setContent(html_92c90b1c31ae3da546e5b63765e44f44);
+            
+        
+
+        marker_fbf38c9bf24d24c15dd4dc80d61501e8.bindPopup(popup_d490e7ab7e5daadb758be009c8d13166)
+        ;
+
+        
+    
+</script>
+</html>
