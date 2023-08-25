@@ -2,7 +2,7 @@ import folium
 import pandas as pd
 
 # CSV 파일에서 데이터 불러오기
-df = pd.read_csv("olympics_participation_data.csv")
+df = pd.read_csv("olympics_participations_data.csv")
 
 # 중심 위치 설정 (지도의 초기 중심)
 center_location = [30, 0]
@@ -24,5 +24,5 @@ for index, row in df.iterrows():
     folium.Marker(location=[latitude, longitude], popup=popup_text).add_to(map_olympics)
 
 # 지도를 HTML 파일로 저장하거나, Jupyter Notebook에서 바로 출력
-map_olympics.save("olympics_participation_map.html")
+map_olympics.save("olympics_participations_map.html")
 map_olympics

@@ -2,8 +2,8 @@ import dash
 from dash import dcc
 from dash import html
 from dash.dependencies import Input, Output
-import plotly.express as px
 import pandas as pd
+import plotly.express as px
 
 # CSV 파일에서 데이터 불러오기
 df = pd.read_csv("olympics_participations_data.csv")
