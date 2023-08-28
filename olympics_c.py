@@ -35,5 +35,5 @@ for key, val in participations.items():
     print(f"{key} : {val['participations']}")
 
 # JSON 파일로 저장
-with open("olympics_participations.json", "w", encoding='cp949') as outfile:
+with open("olympics_c_result.json", "w", encoding='cp949') as outfile:
     json.dump(participations, outfile, indent=4)

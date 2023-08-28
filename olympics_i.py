@@ -7,18 +7,18 @@ from geopy.geocoders import Nominatim
 geolocator = Nominatim(user_agent="olympics_participations")
 
 # Wikipedia 정보 가져오기 (JSON 파일을 DataFrame으로 읽기)
-country_participations = pd.read_json("olympics_participations.json")
+country_participations = pd.read_json("olympics_c_result.json")
 
 # JSON 데이터로 합치기
 final_data = {"Country": [], "Latitude": [], "Longitude": [], "Participations": []}
 for key, val in country_participations.items():
 
-    # 10번 이상 참여한 국가일 경우, 위도와 경도 값을 구하기
+    # 20번 이상 참여한 국가일 경우, 위도와 경도 값을 구하기
     play_count = int(val['participations'])
 
-    if play_count >= 30:
+    if play_count >= 20:
         location = geolocator.geocode(key)
-        time.sleep(5)
+        time.sleep(3)
 
         if location:
             country_participations[key]['latitude'] = location.latitude
@@ -34,4 +34,4 @@ for key, val in country_participations.items():
 df = pd.DataFrame(final_data)
 
 # DataFrame을 CSV 파일로 저장
-df.to_csv("olympics_participations_data.csv", index=False)
+df.to_csv("olympics_i_result.csv", index=False)

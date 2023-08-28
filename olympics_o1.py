@@ -6,7 +6,7 @@ import pandas as pd
 import plotly.express as px
 
 # CSV 파일에서 데이터 불러오기
-df = pd.read_csv("olympics_participations_data.csv")
+df = pd.read_csv("olympics_i_result.csv")
 
 # Dash 앱 초기화
 app = dash.Dash(__name__)
