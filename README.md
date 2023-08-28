@@ -22,11 +22,11 @@
     > olympics_p_result.html file created.
     > ![Alt text](https://github.com/toweringcloud/hello-streamlit/blob/master/olympics_p_result.png)
 5. python olympics_o1.py
-    > Dash is running on http://127.0.0.1:8050
+    > Dash is running on http://127.0.0.1:8050<br>
     > Serving Flask app 'olympics_o1'
     > ![Alt text](https://github.com/toweringcloud/hello-streamlit/blob/master/olympics_o1_result.png)
 6. streamlit run olympics_o2.py
-    > You can now view your Streamlit app in your browser.
+    > You can now view your Streamlit app in your browser.<br>
     > Local URL: http://localhost:8501
     > ![Alt text](https://github.com/toweringcloud/hello-streamlit/blob/master/olympics_o2_result.png)
 
