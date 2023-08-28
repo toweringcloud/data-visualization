@@ -13,14 +13,16 @@
 ## streamlit local dashboard
 
 1. pip -r requirements.txt
+    > required python packages installed.
 2. python olympics_c.py
+    > olympics_c_result.json file created.
 3. python olympics_i.py
+    > olympics_i_result.csv file created.
 4. python olympics_p.py
+    > olympics_p_result.html file created.
 5. streamlit run olympics_o2.py
     > You can now view your Streamlit app in your browser.
-    >
     > Local URL: http://localhost:8501
-    > Network URL: http://?.?.?.?:8501
 
 ## streamlit cloud dashboard
 
