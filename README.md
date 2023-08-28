@@ -1,16 +1,16 @@
-# hello-streamlit
+# Hello Streamlit
 
-## python data analytics from scratch
+## streamlit visualization from scratch
 
 1. Search Code Templates : query codes for crawling & anayltics using ChatGPT
-2. Collect Wiki & Location Data : run code template to collect data using Colab
+2. Collect Wiki & Location Data : troubleshoot code templates using Colab
 3. Analyse Data : parse and aggregate collected data using Pandas and the like
-4. Visualize Data : check analysed location data as map view using Folium
-5. Prepare Web UI : make final result as web dashboard using Plotly & Streamlit
-6. Store to Cloud : commit & push final code files into Github repository
-7. Deploy to Cloud : launch web dashboard with Streamlit cloud
+4. Visualize Data : preview analysed location data as map view using Folium
+5. Make Web UI : convert final result as web dashboard using Plotly & Streamlit
+6. Store to Cloud : commit & push final code files into your public Github repo
+7. Deploy to Cloud : launch web dashboard on Github repo with Streamlit Cloud
 
-## how to run this sample app
+## streamlit web app up & running
 
 1. pip -r requirements.txt
 2. python olympics_c.py
