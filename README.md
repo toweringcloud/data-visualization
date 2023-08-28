@@ -17,9 +17,10 @@
 3. python olympics_i.py
 4. python olympics_p.py
 5. streamlit run olympics_o2.py
-   You can now view your Streamlit app in your browser.
-   Local URL: http://localhost:8501
-   Network URL: http://?.?.?.?:8501
+    > You can now view your Streamlit app in your browser.
+    >
+    > Local URL: http://localhost:8501
+    > Network URL: http://?.?.?.?:8501
 
 ## streamlit cloud dashboard
 
