@@ -12,8 +12,15 @@
 
 ## how to run this sample app
 
-> pip -r requirement.txt
-> python olympics_c.py
-> python olympics_i.py
-> python olympics_p.py
-> streamlit run olympics_o2.py
+1. pip -r requirements.txt
+2. python olympics_c.py
+3. python olympics_i.py
+4. python olympics_p.py
+5. streamlit run olympics_o2.py
+
+## streamlit cloud dashboard
+
+https://hello-app-seswdfxhcft4ld9jagvdu6.streamlit.app
+
+![Alt text](https://github.com/toweringcloud/hello-streamlit/blob/master/olympics_o2_result.png)
+![Alt text](https://github.com/toweringcloud/hello-streamlit/blob/master/olympics_o2_result2.png)
