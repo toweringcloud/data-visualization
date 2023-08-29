@@ -30,6 +30,6 @@
     > Local URL: http://localhost:8501
     > ![Alt text](https://github.com/toweringcloud/hello-streamlit/blob/master/olympics_o2_result.png)
 
-## streamlit cloud dashboard
+## streamlit cloud dashboard (https://streamlit.io)
 
 ![Alt text](https://github.com/toweringcloud/hello-streamlit/blob/master/olympics_o2_result_map.png)
