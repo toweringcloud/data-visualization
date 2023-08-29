@@ -32,6 +32,4 @@
 
 ## streamlit cloud dashboard
 
-https://hello-app-seswdfxhcft4ld9jagvdu6.streamlit.app
-
 ![Alt text](https://github.com/toweringcloud/hello-streamlit/blob/master/olympics_o2_result_map.png)
