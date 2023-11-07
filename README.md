@@ -1,6 +1,6 @@
 # Hello Streamlit
 
-## streamlit dashboard from scratch
+## streamlit interactive dashboard from scratch
 
 1. Search Code Templates : query codes for crawling & anayltics using ChatGPT
 2. Collect Wiki & Location Data : troubleshoot code templates using Colab
